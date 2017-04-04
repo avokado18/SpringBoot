@@ -11,6 +11,7 @@
         <spring-boot-version>1.5.2.RELEASE</spring-boot-version>
         <h2database-version>1.4.193</h2database-version>
         <guava-version>19.0</guava-version>
+        <spring-security.version>4.0.2.RELEASE</spring-security.version>
     </properties>
 
     <dependencies>
@@ -46,7 +47,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
-            <version>${spring-boot-version}</version>
+            <version>3.2.0.RELEASE</version>
         </dependency>
 
         <dependency>
